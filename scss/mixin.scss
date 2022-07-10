@@ -1,0 +1,12 @@
+@mixin link ($link) {
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: $link;
+        font-size: 17px; 
+    }
+    &:hover {
+        border-bottom: 1px solid $link;
+    }
+}

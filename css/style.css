@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+header {
+  background-image: url(../img/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .nav menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .nav menu li {
+  margin-right: 15px;
+}
+header .nav menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+header .nav menu li:hover {
+  border-bottom: 1px solid white;
+}
+header .nav menu li:last-child {
+  margin-right: 0px;
+}
+header .nav .logo {
+  padding-top: 20px;
+}
